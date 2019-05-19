@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    background-color:  rgb(31, 89, 112);
+    margin: auto;
+}
+
+#rps {
+    margin-top: 250px;
+}
