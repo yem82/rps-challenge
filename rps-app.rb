@@ -15,7 +15,13 @@ class RPS < Sinatra::Base
 
   get '/welcome' do
     @player_1 = session[:player]
+    @choice = session[:shape]
     erb :welcome
+  end
+
+  post '/welcome' do
+    session[:shape] = params[:shape]
+    redirect '/welcome'
   end
 
   run! if app_file == $0

@@ -39,6 +39,8 @@ I would like to be able to play rock/paper/scissors
 
 ```
 
+For user story 2, first I will make sure that the player can see three options to choose from ('rock', 'paper' or 'scizzors'). Next I will test that the user is able to submit their option
+
 Objects     |    Messages<br/>
             |            <br/>
  Game       |    player_name<br/>
